@@ -1,0 +1,16 @@
+body {
+    background-color: #ffdbdb; /* rosa claro, puedes cambiarlo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #880e4f;
+}
