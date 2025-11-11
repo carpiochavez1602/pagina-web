@@ -17,7 +17,7 @@ body {
 header {
     text-align: center;
     padding: 50px 20px;
-    background-color: #00bcd4;
+    background-color: #ff9898;
     color: white;
 }
 
@@ -44,14 +44,14 @@ section {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #00bcd4;
+    background-color: #ff9898;
     color: white;
     margin-top: 40px;
 }
 
 /* Titulos secciones */
 section h2 {
-    color: #00bcd4;
+    color: #ff9898;
     margin-bottom: 15px;
 }
 
@@ -59,7 +59,7 @@ section h2 {
 .boton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00bcd4;
+    background-color: #ff9898;
     color: white;
     border-radius: 10px;
     text-decoration: none;
@@ -67,5 +67,5 @@ section h2 {
 }
 
 .boton:hover {
-    background-color: #0097a7;
+    background-color: #ff9898;
 }
