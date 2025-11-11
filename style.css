@@ -1,3 +1,4 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -54,6 +55,7 @@ section h2 {
     margin-bottom: 15px;
 }
 
+/* Botón */
 .boton {
     display: inline-block;
     padding: 10px 20px;
