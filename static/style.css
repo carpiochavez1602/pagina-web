@@ -1,16 +1,69 @@
-body {
-    background-color: #ffdbdb; /* rosa claro, puedes cambiarlo */
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    color: #333;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-header, footer {
+/* Fondo y colores */
+body {
+    background: linear-gradient(to right, #f9f9f9, #e0f7fa);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #00bcd4;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Sección */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
     text-align: center;
     padding: 20px;
+    background-color: #00bcd4;
+    color: white;
+    margin-top: 40px;
 }
 
-h1 {
-    color: #880e4f;
+/* Titulos secciones */
+section h2 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: #0097a7;
 }
